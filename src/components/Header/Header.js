@@ -1,4 +1,5 @@
 import React from 'react';
+import CTA from './CTA';
 
 const Header = () => {
     return (
@@ -9,6 +10,7 @@ const Header = () => {
                 <h5 className="text-light">
                     Front End Developer
                 </h5>
+                <CTA></CTA>
             </div>
         </header>
     );
