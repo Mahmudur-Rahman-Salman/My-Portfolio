@@ -43,7 +43,7 @@ body {
 
 /* ========= General Styles ======= */
 
-.contianer {
+.container{
   width: var(--container-width-lg);
   margin: 0 auto;
 }
@@ -136,6 +136,7 @@ img {
   }
 
 }
+
 /* ======= Media Queries Small devices ==========*/
 
 @media screen and (max-width:600px) {
@@ -143,7 +144,7 @@ img {
     width: var(--container-width-sm);
   }
 
-  section > h2{
+  section>h2 {
     margin-bottom: 2rem;
   }
 
